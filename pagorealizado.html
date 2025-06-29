@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compra realizada</title>
+    <link rel="icon" href="img/ico.ico" type="image/png">
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://kit.fontawesome.com/6956043abb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="img/banner.png" alt="Logo MercedesPago" />
+                </a>
+            </div>
+            <div class="search-container">
+                <form>
+                    <input type="search" id="search" name="search" placeholder="Buscar productos" class="search-bar" />
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header-icons">
+                <details class="user-profile">
+                    <summary class="user-profile-button" aria-label="Perfil de usuario">
+                        <i class="fa-regular fa-user"></i>
+                    </summary>
+                </details>
+                <a href="cart.html" class="cart-icon" title="Carrito">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <div class="logout-icon">
+                    <a href="login.html" class="logout" title="Cerrar sesión">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <audio autoplay unmuted id="audioBienvenida">
+        <source src="img/paycheck/compra.mp3" type="audio/mp3">
+    </audio>
+
+    <main>
+        <div class="comprarealizada-container">
+            <h1>¡Compra realizada con éxito!</h1>
+            <div class="gif-container">
+                <img src="img/paycheck/check.gif" alt="Check de compra" class="gif">
+            </div>
+            <div class="comprobantecontainer">
+                <a href="chatgptpages/comprobante.html" class="outline">
+                <div class="comprobante">
+                    <button type="button">Ver comprobante</button>
+                </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="piepagina">
+            <p>&copy; 2025 MercedesLibre S.R.L.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

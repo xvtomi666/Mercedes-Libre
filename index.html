@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercedes Libre Argentina</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="img/ico.ico" type="image/png">
+    <script src="https://kit.fontawesome.com/6956043abb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/banner.png" alt="Logo" />
+                </a>
+            </div>
+            <div class="search-container">
+                <form>
+                    <input type="search" id="search" name="search" placeholder="Buscar productos" class="search-bar" />
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header-icons">
+                <details class="user-profile">
+                    <summary class="user-profile-button">
+                        <i class="fa-regular fa-user"></i>
+                    </summary>
+                </details>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <div class="logout-icon">
+                    <a href="login.html" class="logout">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CATEGORÍAS -->
+    <section class="categorias-section">
+        <div class="categorias-grid">
+            <a href="#tecnologia" class="categoria-card">Tecnología</a>
+            <a href="#ropa" class="categoria-card">Ropa</a>
+            <a href="#electrodomesticos" class="categoria-card">Electrodomésticos</a>
+            <a href="#herramientas" class="categoria-card">Herramientas</a>
+            <a href="#motosvehiculos" class="categoria-card">Motos y vehículos</a>
+        </div>
+    </section>
+
+
+    <!-- BANNER -->
+    <div class="banner-container">
+        <div class="videobanner">
+            <video autoplay muted loop>
+                <source src="img/video.mp4" type="video/mp4" />
+            </video>
+            <div class="contenido-banner">
+                <img src="img/logo.png" alt="Logo" class="logo-banner" />
+                <p>TU TIENDA ONLINE MERCEDINA</p>
+            </div>
+        </div>
+    </div>
+    <!-- PUBLICIDAD -->
+    <div class="publicidad">
+        <img src="img/slider/slider (2).jpg" alt="" class="ad" />
+        <img src="img/slider/slider (4).jpg" alt="" class="ad" />
+        <img src="img/slider/slider (5).jpg" alt="" class="ad" />
+        <img src="img/slider/slider (3).jpg" alt="" class="ad" />
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- MAS COMPRADO -->
+        <section class="mascomprado">
+            <h2>Más comprado</h2>
+            <div class="galeria">
+                <a href="productospaginas/producto1.html">
+                    <div class="producto">
+                        <img src="https://images.fravega.com/f300/88e54b339c0e1352475fd7441b077a52.jpg.webp"
+                            alt="Celular Iphone13" width="220" height="220" />
+                        <h3>Apple Iphone 13(128GB) - Medianoche</h3>
+                        <p><small><s>$2.399.99</s></small></p>
+                        <p>$1.007.999</p>
+                        <p style="color:green"><small>58% OFF</small></p>
+                    </div>
+                </a>
+                <a href="productospaginas/producto2.html">
+                    <div class="producto">
+                        <a href="productospaginas/producto2.html">
+                            <img src="https://images.fravega.com/f300/c03ac0fa53fc9c0afc1c55bc2babdba1.jpg" alt="Play5"
+                                width="220" height="220" />
+                            <h3>Sony Playstation 5 Slim 1T-Standard color blanco</h3>
+                            <p><small> <s>$1.999.999</s></small> </p>
+                            <p>$1.298.000</p>
+                            <p style="color:green"> <small> 35% OFF </small></p>
+                    </div>
+                </a>
+                <a href="productospaginas/producto3.html">
+                    <div class="producto">
+                        <img src="https://pacogarcia.vtexassets.com/arquivos/ids/259247-300-300?v=638852499643300000&width=300&height=300&aspect=true"
+                            alt="Notebook" width="220" height="220" />
+                        <h3>Camiseta De River Adidas Oficial Blanca</h3>
+                        <p>$91.218 </p>
+                        <p style="color:green"> <small> 28% OFF </small></p>
+                    </div>
+                </a>
+                <a href="productospaginas/producto4.html">
+                    <div class="producto">
+                        <img src="https://images.fravega.com/f300/4abc755d45fd99e0e2dd4b23194ac384.jpg" alt="EAFC25"
+                            width="220" height="220" />
+                        <h3>Juego Ea Sports 25-PS5 Fisico</h3>
+                        <p>$67.000</p>
+
+                        <p style="color:green"> <small> Envio Gratis </small> </p>
+
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+        <!--PUBLICIDAD VIDEO-->
+
+        <section class="publicidad-video">
+            <div class="video-contenedor">
+                <video autoplay muted loop playsinline>
+                    <source src="img/slider/publicidad.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay">
+                    <h2>Feria de Pequeños y Medianos Productores</h2>
+                    <p> Feria de Pequeños y Medianos Productores en el Parque Costanera Río Quinto, "El Lago".
+                        Ofrece productos frescos, artesanales y locales como Sol Puntano, Góndola San Luis y la Colonia
+                        Agrícola.
+                        También hay mercado de arte, patio gastronómico, cervezas artesanales y shows en vivo.</p>
+                    <a href="https://www.youtube.com/watch?v=2ImbRSFSveY" class="boton-publicidad"
+                        target="_blank">Acerca de este anuncio</a>
+                </div>
+            </div>
+            <div class="video-contenedor">
+                <video autoplay muted loop playsinline>
+                    <source src="img/slider/publicidad2.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay">
+                    <h2>Villa Mercedes Limpia</h2>
+                    <p>MercedesLibre se une a la causa Villa Mercedes Limpia.</p>
+                    <a href="https://www.youtube.com/watch?v=728YGWVe-bI" class="boton-publicidad"
+                        target="_blank">Acerca de este anuncio</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- TECNOLOGÍA -->
+        <div class="masproductos" id="tecnologia">
+            <div class="texto">
+                <h2>Tecnología</h2>
+                <p>Encuentra los últimos gadgets y dispositivos electrónicos.</p>
+                <button onclick="window.location.href='categoriashtml/tecnologia.html'">Ver más</button>
+            </div>
+            <div class="imagen">
+                <img src="img/categorias/tecnologia.jpg" alt="Tecnología" />
+            </div>
+        </div>
+
+        <section class="publicidadbanner">
+            <a href="chatgptpages/mercedespago.html" target="_blank">
+                <div class="publicidad">
+                    <img src="img/slider/mercedespagoo.png" alt="Publicidad 1" class="ad" />
+                </div>
+            </a>
+        </section>
+        <section class="categoria">
+            <div class="galeria">
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/e9e2f22039c9ba428d6551ca6b0a9442.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Samsung Galaxy A35 5G 256GB-8GB RAM</h3>
+                    <p><small><s> $899.999 </s></small> </p>
+                    <p>$479.999</p>
+                    <p style="color:green"><small>46% OFF</small> </p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/88e54b339c0e1352475fd7441b077a52.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Apple Iphone 13(128GB)-Medianoche</h3>
+                    <p><small><s>$2.399.99</s></small></p>
+                    <p>$1.007.999</p>
+                    <p style="color:green"><small>58% OFF</small></p>
+
+                </div>
+                <div class="producto">
+                    <img src="https://wp-pa.phonandroid.com/uploads/2025/01/xiaomi-redmi-note-300x300.jpg" width="200"
+                        height="200" />
+                    <h3>Xiaomi Redmi Note 14 PRO 256gb 8gb Ram-Negro</h3>
+                    <p>$511.000</p>
+                    <p style="color:green"><small>O en 12 cuotas de $45.583 </small> </p>
+                </div>
+                <div class="producto">
+                    <img src="https://acdn-us.mitiendanube.com/stores/001/160/892/products/1fdfa9b796bcbad5209c80125675-97b23640653d29b0ae17435170625559-640-0.webp"
+                        width="200" height="200" />
+                    <h3>Motorola MotoG 15 128/4GB Ram + Accesorio de regalo</h3>
+                    <p><small><s>$269.999</s></small></p>
+                    <p>223.999 </p>
+                    <p style="color:green"><small> 17% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/4358388e8313015ee86eb12d20095b92.jpg" alt="Notebook"
+                        width="220" height="300" />
+                    <h3>Notebook Asus Vivobook 15.6 Intel CoreI3, 8gb de Ram,128gb ssd,W11,color negro</h3>
+                    <p><small><s>$845.999</s></small></p>
+                    <p>$602.899 </p>
+                    <p style="color:green"> <small> 28% OFF </small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://kanji.com.ar/wp-content/uploads/2024/02/Notebook-nueva-i3-300x300.jpg" width="200"
+                        height="200" />
+                    <h3>Notebook Lenovo Intel Celeron N4500 4gb 128gb 14 W11 Grey</h3>
+                    <p><small><s>$901.000</s></small></p>
+                    <p>$494.505</p>
+                    <p style="color:green"><small>45% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/0cd14dcf8526cd67edb20689324c28f0.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Netbook Dell Inspiron 15 3520 15.6 8gb Ram 512gb Ssd Color Negro</h3>
+                    <p><small><s>$1.089.999</s></small></p>
+                    <p>$834.750</p>
+                    <p style="color:green"><small>23% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/0a53ebaecee3300c4eb4310799a65063.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Netbook Exolite L1 Intel Celeron N4020 8gb Ssd 480gb Linux Color Negro</h3>
+                    <p><small><s>$449.999</s></small></p>
+                    <p>$345.599</p>
+                    <p style="color:green"><small>23% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/c03ac0fa53fc9c0afc1c55bc2babdba1.jpg" alt="Play5"
+                        width="220" height="220" />
+                    <h3>Sony Playstation 5 Slim 1T-Standard color blanco</h3>
+                    <p><small> <s>$1.999.999</s></small> </p>
+                    <p>$1.298.000</p>
+                    <p style="color:green"> <small> 35% OFF </small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://pardohogar.vtexassets.com/arquivos/ids/217624-300-300?v=638820579066970000&width=300&height=300&aspect=true"
+                        width="200" height="200" />
+                    <h3>Tv Led RCA 55 G55P6UHD Google 4k</h3>
+
+                    <p>$779.939</p>
+                    <p style="color:green"> <small>O en 6 cuotas de $129.989 </small></p>
+
+                </div>
+                <div class="producto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDbQSly1GqRxxP_ZBEAywoNHNjxDDjKB1ozA&s"
+                        width="200" height="200" />
+                    <h3>Smart Tv Philips Hd 32 Titan OS HDR10 Pixel Plus Dolby Audio</h3>
+                    <p><small> <s>$388.399</s></small> </p>
+                    <p>$278.999</p>
+                    <p style="color:green"> <small> 28% OFF </small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/3a8546af378c9e791bca3b7383138837.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Smart TV UN55DU7000GCZB Du7000 55'' Crystal Negro Samsung</h3>
+                    <p><small> <s>$859.999</s></small> </p>
+                    <p>$719.999</p>
+                    <p style="color:green"> <small> 16% OFF </small></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="publicidadbanner">
+            <a href="https://www.instagram.com/vamosacinesfenix/?hl=es" target="_blank">
+                <div class="publicidad">
+                    <img src="img/slider/cinexfenix.jpg" alt="Publicidad 2" class="ad" />
+                </div>
+            </a>
+        </section>
+        <!-- ROPA -->
+        <div class="masproductos" id="ropa">
+            <div class="texto">
+                <h2>Ropa</h2>
+                <p>Explora nuestra colección de ropa para todas las ocasiones, desde casual hasta formal.</p>
+                <button onclick="window.location.href='categoriashtml/ropa.html'">Ver más</button>
+            </div>
+            <div class="imagen">
+                <img src="img/categorias/ropa.jpg" alt="Ropa" />
+            </div>
+        </div>
+
+        <section class="categoria">
+            <div class="galeria">
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_897697-MLA84754768929_052025-O.webp" width="200"
+                        height="200" />
+                    <h3><strong>ADIDAS</strong></h3>
+                    <h3>Zapatillas Adidas Running Runblaze 5 Mujer Negro Ih6710</h3>
+                    <p>$69.999</p>
+                    <p style="color:green"><small>O en 6 cuotas de $11.666</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/810489-1600-1600?width=1600&height=1600&aspect=true"
+                        width="200" height="200" />
+                    <h3><strong>NIKE</strong></h3>
+                    <h3>Calzado Para Hombre Nike Revolution 7 Negro</h3>
+                    <p>$99.999</p>
+                    <p style="color:green"><small>O en 6 cuotas de $16.666</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/312079/05/sv01/fnd/IND/fmt/png/FlexFocus-Lightweight-Running-Shoes"
+                        width="200" height="200" />
+                    <h3><strong>PUMA</strong></h3>
+                    <h3>Zapatilla Flex Focus Lite Modern Puma</h3>
+                    <p>$69.999</p>
+                    <p style="color:green"><small>O en 3 cuotas de $23.333</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://www.rvddeportes.com.ar/wp-content/uploads/2023/11/26205-Strong-pace-II-negro-lima-E-300x300.png"
+                        width="200" height="200" />
+                    <h3><strong>TOPPER</strong></h3>
+                    <h3>Zapatillas Topper Training Strong Pace Iii Hombre Mn Gr </h3>
+                    <p>$64.900</p>
+                    <p style="color:green"><small>O en 6 cuotas de $10.816</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/ed52db36e9bb4771b042b993e49a40e6_9366/Remera_Estampada_adidas_Heritage_Verde_KA0997_01_laydown.jpg"
+                        width="200" height="200" />
+                    <h3><strong>ADIDAS</strong></h3>
+                    <h3>Remera Estampada Adidas Heritage Ka0996 Adidas</h3>
+                    <p>$44.999</p>
+                    <p style="color:green"><small>O en 6 cuotas de 10.298</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8451480a/products/NI_DD1992-010/NI_DD1992-010-1.JPG"
+                        width="200" height="200" />
+                    <h3><strong>NIKE</strong></h3>
+                    <h3>Remera Nike Pro Dri-Fit</h3>
+                    <p>$48.000</p>
+                    <p style="color:green"><small>O en 3 cuotas de $25.999</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://redsport.vtexassets.com/arquivos/ids/1116932/REMERA-PUMA-BASIC-CREW-TEE.jpg?v=637958295211530000"
+                        width="200" height="200" />
+                    <h3><strong>PUMA</strong></h3>
+                    <h3>Remera Puma Basic Crew Tee</h3>
+                    <p>$29.499</p>
+                    <p style="color:green"><small>O en 6 cuotas de $6.750</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_816636-MLA85882786027_062025-F.webp" width="200"
+                        height="200" />
+                    <h3><strong>TOPPER</strong></h3>
+                    <h3>Remera Topper Brand Para Hombre | Stock Center</h3>
+                    <p>$28.598</p>
+                    <p style="color:green"><small>O en 3 cuotas de $9.532</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://www.innovasport.com/medias/IS-IC0063-1.jpg?context=bWFzdGVyfGltYWdlc3wxMDE0OXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoa055OW9NbU12TVRJd01qTTRORGd5TnpFNU1ESXVhbkJufGJiZWQ0NzQ1ODY4YWYxMWQwNzI1NGQ2MDI2ZTY3NjYxYWZmM2I5YmIxMjM3MjMzMDU1Y2U2ODMwMTI4NTc4ZGQ"
+                        width="200" height="200" />
+                    <h3><strong>ADIDAS</strong></h3>
+                    <h3>Pantalón adidas Casual Essentials Hombre Negro Jf1105</h3>
+                    <p>$59.999</p>
+                    <p style="color:green"><small>O en 6 cuotas de $13.730</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://mateuarg.vtexassets.com/arquivos/ids/647025-300-300?v=638729821690170000&width=300&height=300&aspect=true"
+                        width="200" height="200" />
+                    <h3><strong>NIKE</strong></h3>
+                    <h3>Pantalon Para Hombre Nike Club Algodón Negro</h3>
+                    <p>$109.999</p>
+                    <p style="color:green"><small>O en 6 cuotas de $18.333</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://www.tienda.quonam.com.ar/media/catalog/product/cache/d51d136a5f8af7ee6bd503d63b8a1058/1/9/1942-625412-01-NEGRO_Y_BLANCO_1.jpg"
+                        width="200" height="200" />
+                    <h3><strong>PUMA</strong></h3>
+                    <h3>Pantalón Puma Pumatech Sportstyle Hombre Moda Negro</h3>
+                    <p>$109.999</p>
+                    <p style="color:green"><small>O en 6 cuotas de $25.173</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://www.tienda.quonam.com.ar/media/catalog/product/cache/d51d136a5f8af7ee6bd503d63b8a1058/2/-/2-167344-NEGRO_1.jpg"
+                        width="200" height="200" />
+                    <h3><strong>TOPPER</strong></h3>
+                    <h3>Pantalón Entrenamiento Topper Wv Para Mujer By Dexter</h3>
+                    <p>$49.348</p>
+                    <p style="color:green"><small>O en 6 cuotas de $11.293</small></p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ELECTRODOMÉSTICOS -->
+        <div class="masproductos" id="electrodomesticos">
+            <div class="texto">
+                <h2>Electrodomésticos</h2>
+                <p>Descubre nuestra gama de electrodomésticos para hacer tu vida más fácil y cómoda.</p>
+                <button onclick="window.location.href='categoriashtml/electrodomesticos.html'">Ver más</button>
+            </div>
+            <div class="imagen">
+                <img src="img/categorias/images.jpg" alt="Electrodomésticos" />
+            </div>
+        </div>
+
+        <section class="categoria">
+            <div class="galeria">
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/c3f1d8090accc4e490e06c7df99647bc.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Freidora De Aire Digital Decakila Keec039b 1400w 4.5l Sin Aceite Antiadherente</h3>
+                    <p><small><s>$99.999</s></small></p>
+                    <p>$67.999</p>
+                    <p style="color:green"><small>32% OFF</small></p>
+
+
+
+
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/d16405a6c1b270160e87f2ef4aa7c73c.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Liliana Mateando AP175B Pava Eléctrica Blanca 1.7L</h3>
+                    <p><small><s>$82.699</s></small></p>
+                    <p>$39.199</p>
+                    <p style="color:green"><small> 53% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/235e1c10290889a3987a0384fd48589f.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Cafetera Liliana Cofix AC960 semi automática negra de filtro</h3>
+                    <p>$73.899</p>
+                    <p style="color:green"><small>O en 6 cuotas de $14.123,06</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_737423-MLA84545080140_052025-F.webp" width="200"
+                        height="200" />
+                    <h3>Tostadora Liliana Tostler At900</h3>
+                    <p>$35.833</p>
+                    <p style="color:green"><small>O en 9 cuotas de $3.981</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://whirlpoolargio.vtexassets.com/arquivos/ids/162614-300-300?v=637813104174170000&width=300&height=300&aspect=true"
+                        width="200" height="200" />
+                    <h3>Cocina Escorial Palace Cristal a gas natural 4 hornallas blanca puerta con visor 50L</h3>
+                    <p><small><s>490.999</s></small></p>
+                    <p>$375.352</p>
+                    <p style="color:green"><small>23% OFF</small></p>
+
+                </div>
+                <div class="producto">
+                    <img src="https://cookandfood.com.ar/wp-content/uploads/2019/05/2019-cf60-negro-300x300.jpg"
+                        width="200" height="200" />
+                    <h3>Cocina Longvie Standard12231X multigas color acero inoxidable con puerta con visor</h3>
+                    <p><small><s>$800.999</s></small></p>
+                    <p>$600.749</p>
+                    <p style="color:green"><small>25% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://baproar.vtexassets.com/arquivos/ids/244139-300-300?v=638168409612400000&width=300&height=300&aspect=true"
+                        width="200" height="200" />
+                    <h3>Lavarropas De Carga Superior Gafa Digifit De 6.5kg Plata Color Gris plata</h3>
+                    <p><small><s>$711.332</s></small></p>
+                    <p>$533.499</p>
+                    <p style="color:green"> <small>25% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://mancihogar.com.ar/wp-content/uploads/2022/09/1200Wx1200H-1-Lavarropas-Drean-NEXT10.12P.ECO-1-300x300.jpg"
+                        width="200" height="200" />
+                    <h3>Lavarropas Philco Carga Frontal Phlf8014p2 Inverter 8kg Gris Color Gris oscuro</h3>
+                    <p><small><s>842.529</s></small></p>
+                    <p>$639.751</p>
+                    <p style="color:green"> <small>24% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://aremsaprod.vtexassets.com/arquivos/ids/785147-300-300?v=638742822750970000&width=300&height=300&aspect=true"
+                        width="200" height="200" />
+                    <h3>Heladera Gafa No Frost 262l Inverter Plata Hgnf251p</h3>
+                    <p><small><s>$936.221</s></small></p>
+                    <p>$748.976</p>
+                    <p style="color:green"><small>20% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://servitec.ar/wp-content/uploads/2024/05/31951_1-300x300.jpg" width="200"
+                        height="200" />
+                    <h3>Heladera Hgnw3900p 347l No Frost E/a Plata Gafa</h3>
+                    <p><small><s>1.170.332</s></small></p>
+                    <p>$899.999</p>
+                    <p style="color:green"><small>23% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://dipaolomaderas.com.ar/wp-content/uploads/2024/01/Heladera-Ciclica-Drean-HDR280F00B-1-300x300.jpg"
+                        width="200" height="200" />
+                    <h3>Heladera Cíclica Philco Single Door 164l Neta Con Dispenser</h3>
+                    <p><small>
+                            <p>$402.799</p>
+                        </small></p>
+                    <p>$366.6999</p>
+                    <p style="color:green"><small>8% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://servitec.ar/wp-content/uploads/2024/09/32733_1-300x300.jpg" width="200"
+                        height="200" />
+                    <h3>Heladera Con Freezer No Frost Philco 174 L Phnt198x2 Acero Inoxidable</h3>
+                    <p><small><s>$729.999</s></small></p>
+                    <p>409.999</p>
+                    <p style="color:green"><small>43% OFF</small></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HERRAMIENTAS -->
+        <div class="masproductos" id="herramientas">
+            <div class="texto">
+                <h2>Herramientas</h2>
+                <p>Encuentra las herramientas que necesitas para tus proyectos de bricolaje y reparación.</p>
+                <button onclick="window.location.href='categoriashtml/herramientas.html'">Ver más</button>
+
+            </div>
+            <div class="imagen">
+                <img src="img/categorias/Hand_tools.jpg" alt="Herramientas" />
+            </div>
+        </div>
+
+        <section class="categoria">
+            <div class="galeria">
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/0db3e98edb7d7b2f8a47b380e8b91605.png.webp" width="200"
+                        height="200" />
+                    <h3>Set Caja De Herramientas Hogar Alpina 142 Piezas Reforzado</h3>
+                    <p><small><s>$35.990</s></small></p>
+                    <p>$19.389</p>
+                    <p style="color:green"><small>O en 3 cuotas de $6.563</small></p>
+
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/86ee7b01d2f67b3b6773655ced31ce8d.jpg" width="200"
+                        height="200" />
+                    <h3>Kit Caja Herramientas Completo Set 81 Pcs Box West #8 Multi</h3>
+                    <p><small><s>$76.999</s></small></p>
+                    <p>$69.299</p>
+                    <p style="color:green"><small>10% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/09315fb15f589c0296a245b2a09c9c06.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Juego Llaves Combinadas 6 a 24 Mm 12 Piezas Alpina Color Plateado</h3>
+                    <p><small><s>38.000</s></small></p>
+                    <p>$31.040</p>
+                    <p style="color:green"><small>18% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/b30ce1a5786e84c2776daa61c9549254.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Läufer Set Caja de Herramientas Hogar 100 Piezas Profesional Acero Color Negro</h3>
+                    <p><small><s>$61.948</s></small></p>
+                    <p>$36.655</p>
+                    <p style="color:green"><small>40% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://www.dowenpagioweb.com.ar/wp-content/uploads/9992981_WEB-300x300.jpg" width="200"
+                        height="200" />
+                    <h3>Taladro Atornillador Inalámbrico Valuemax 20v 1400 Rpm</h3>
+                    <p><small><s>$79.990</s></small></p>
+                    <p>$51.933</p>
+                    <p style="color:green"><small>35% OFF</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://images.fravega.com/f300/dba048003ae8337ca8c08a8c4323efa9.jpg.webp" width="200"
+                        height="200" />
+                    <h3>Esmeriladora Cabeza Plana 5 125mm 850w Dewalt</h3>
+
+                    <p>$325.025</p>
+                    <p style="color:green"><small>O en 6 cuotas $54.170</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://clabutor.com.ar/wp-content/uploads/2024/08/SHR263KA-AR-01-300x300.jpg" width="200"
+                        height="200" />
+                    <h3>Rotomartillo electroneumático DeWalt BareTools DCH133B inalámbrico amarillo y negro con 20W
+                        de
+                        potencia</h3>
+                    <p>$375.778</p>
+                    <p style="color:green"><small>O en 12 cuotas de $31.314</small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS84XFfnODFW9SLkxCT0DlESgf8opbefYpGZg&s"
+                        width="200" height="200" />
+                    <h3>Llave De Impacto 1/2 20v Máx Dewalt Dcf900b Sin Baterias</h3>
+                    <p>$523.754</p>
+                    <p style="color:green"><small>O en 6 cuotas de de $87.292 </small></p>
+                </div>
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_137601-MLA20370639426_082015-O.webp" width="200"
+                        height="200" />
+                    <h3>Cortacésped Helicoidal Castelgarden C/bolsa Recolectora Color Verde claro</h3>
+                    <p><small><s>$192.000</s></small></p>
+                    <p>$152.838</p>
+                    <P style="color:green"><small>20% OFF</small></P>
+                </div>
+                <div class="producto">
+                    <img src="https://m.media-amazon.com/images/S/aplus-media/sc/3833d162-baeb-4b63-8445-dc6ce0f9e0c9.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+                        width="200" height="200" />
+                    <h3>Conector Eléctrico macho Industrial Hubbell 70930NP 30 A</h3>
+                    <p>$276.312</p>
+                    <p style="color:green"><small>O en 12 cuotas de $23.026</small></p>
+
+
+                </div>
+
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_825814-MLA70897206150_082023-C.jpg" width="200"
+                        height="200" />
+                    <h3>Mezclador De Pintura kld Industrial 1400w 1 Paleta</h3>
+                    <p><small><s>$98.000</s></small></p>
+                    <p>$83.300</p>
+                    <p style="color:green"> <small>15% OFF</small></p>
+
+
+                </div>
+                <div class="producto">
+                    <img src="https://avenidasrl.com/storage/2024/05/palaPoceraForjada992133-992134-992135-992136-992138-600x600-1-300x300.jpg"
+                        width="200" height="200" />
+                    <h3>Kit/combo Pala Pocera Y Pala Ancha Cabo De Hierro Pb</h3>
+
+                    <p>$77.950</p>
+                    <p style="color:green"><small>O en 6 cuotas de $17.838</small></p>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- MOTOS Y VEHÍCULOS -->
+        <div class="masproductos" id="motosvehiculos">
+            <div class="texto">
+                <h2>Vehículos</h2>
+                <p>Explora nuestra colección de vehículos, desde autos hasta motos, para todos los gustos y
+                    necesidades.
+                </p>
+                <button onclick="window.location.href='categoriashtml/vehiculos.html'">Ver más</button>
+            </div>
+            <div class="imagen">
+                <img src="img/categorias/vehiculos.jpg" alt="Vehículos" />
+            </div>
+        </div>
+
+        <section class="categoria">
+            <div class="galeria">
+                <div class="producto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjribDKX064WFOqULU0xPXeDpTJNUo8hnYtw&s"
+                        width="200" height="200" />
+                    <h3>Cf Moto Gt 650</h3>
+                    <p>13.500.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgtT7E-U5vdsG3S17-2X3JFt8bhvBQYkSSsw&s"
+                        width="200" height="200" />
+                    <h3>Honda Cb 300 Twister</h3>
+                    <p>$6.500.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://cdn2.louis.de/dynamic/bikedb/o_pad,w_300,h_300,ha_center,va_center,c_fff::o_extension,e_webp/32.5a.fa.4405.png"
+                        width="200" height="200" />
+                    <h3>Ducati x Diavel</h3>
+                    <p> US $32.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_690961-MLA70730881382_072023-E.webp" width="200"
+                        height="200" />
+                    <h3>Honda Xr 190 2025-Honda Paris Oficial</h3>
+                    <p>$6.730.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://corrientesmotos.com.ar/wp-content/uploads/2023/04/honda-wave-110-s-full-300x300.png.webp"
+                        width="200" height="200" />
+                    <h3>Honda Wave 110 2025</h3>
+                    <p>$3.521.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_934197-MLA83094746298_032025-E.webp" width="200"
+                        height="200" />
+                    <h3>Moto Electrica Super Soco Cux 1600w</h3>
+                    <p>$2.890.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_980115-MLA72547830442_112023-E.webp" width="200"
+                        height="200" />
+                    <h3>Moto Electrica Super Soco Cux Tc Max 3500w</h3>
+                    <p>$6.320.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://corrientesmotos.com.ar/wp-content/uploads/2023/04/skua--300x300.png" width="200"
+                        height="200" />
+                    <h3>Skua 150 CC EXTREME</h3>
+                    <p>US $1.705</p>
+                </div>
+                <div class="producto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlY45FKfh53_YpyEd3AtIgLP8uiqCC3qsHnw&s"
+                        width="200" height="200" />
+                    <h3>Peugeot 208 1.61|Feline tiptronic Am23.5</h3>
+                    <p>$24.000.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://p.turbosquid.com/ts-thumb/QN/yMWbDy/n57hCObx/peugeot308_1/jpg/1314040466/300x300/sharp_fit_q85/38f3c0c6f84867ac84420c289246a2a9f517b562/peugeot308_1.jpg"
+                        width="200" height="200" />
+                    <h3>Peugeot 308 1.6 sport Thp 163cv</h3>
+                    <p>$14.500.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzsD1ebqZW0VWXd6e4Ob7du1AbDoYeoY1Ilw&s"
+                        width="200" height="200" />
+                    <h3>Toyota Corolla Cross 1.8 Xei Ecvt</h3>
+                    <p>US $34.000</p>
+                </div>
+                <div class="producto">
+                    <img src="https://artemis.clubsanjorge.com.ar/images/910.webp" width="200" height="200" />
+                    <h3>Toyota Corolla 1.8 Xli Mt 140cv</h3>
+                    <p>$17.800.000</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <section class="categorias-section">
+        <div class="categorias-grid">
+            <a href="#tecnologia" class="categoria-card">Tecnología</a>
+            <a href="#ropa" class="categoria-card">Ropa</a>
+            <a href="#electrodomesticos" class="categoria-card">Electrodomésticos</a>
+            <a href="#herramientas" class="categoria-card">Herramientas</a>
+            <a href="#motosvehiculos" class="categoria-card">Motos y vehículos</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="piepagina">
+            <span>
+                <p>Copyright © 2025 MercedesLibre S.R.L.</p>
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compra</title>
+    <link rel="icon" href="img/ico.ico" type="image/png">
+    <link rel="stylesheet" href="css/login.css" />
+    <script src="https://kit.fontawesome.com/6956043abb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header-completo">
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/banner.png" alt="Logo">
+                    </a>
+                </div>
+        </header>
+    </div>
+    <main>
+        <div class="loginbox">
+            <div class="tarjetacredito">
+                <img src="img/paycheck/tarjeta.png" alt="tarjeta">
+            </div>
+            <h2>Datos de Pago</h2>
+            <form
+                action="pagorealizado.html"
+                method="get">
+
+                <label for="dni"><strong>Número de seguridad social (DNI/CUIL/CUIT)</strong></label>
+                <input type="text" id="dni" name="dni" required />
+
+                <label for="tarjeta"><strong>Número de la tarjeta</strong></label>
+                <input type="text" id="tarjeta" name="tarjeta" placeholder="0000 0000 0000" required />
+
+                <label for="vencimiento"><strong>Fecha de vencimiento</strong></label>
+                <input type="text" id="vencimiento" name="vencimiento" placeholder="MM/AA" required />
+
+                <label for="codigo"><strong>Código de seguridad</strong></label>
+                <input type="text" id="codigo" name="codigo" required />
+
+                <div class="detallespago">
+                    <h4>Metodos de pago</h4>
+                </div>
+                <div class="metodosdepago">
+                    <img src="img/paycheck/metodosdepago (1).png" alt="Mercedespago" class="metodosdepago1">
+                    <img src="img/paycheck/metodosdepago (2).png" alt="Mercedespago" class="metodosdepago2">
+
+                </div>
+                <div class="pago-container">
+                    <p class="pagacon">Paga con
+                    <div class="logopago">
+                        <img src="img/paycheck/logo.png" alt="">
+                    </div>
+                    </p>
+                </div>
+
+                <a href="pagorealizado.html">
+                    <input type="submit" value="Comprar" />
+                </a>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="piepagina">
+            <span>
+                <p>Copyright
+                    © 2025 MercedesLibre S.R.L.</p>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
